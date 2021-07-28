@@ -30,6 +30,9 @@ function Dashboard({ date }) {
       <div className="d-md-flex mb-3">
         <h4 className="mb-0">Reservations for date</h4>  
       </div>
+      <button>Previous Day</button>
+      <button>Today</button>
+      <button>Next Day</button>
       <div>
           <CurrentReservations/>
       </div>
